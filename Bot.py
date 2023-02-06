@@ -17,6 +17,7 @@ def helper(message: telebot.types.Message):
                           "1)Имя валюты\n\
 2)В какую валюту хотите перевести\n\
 3)Количество переводимой валюты\n\
+Например: Доллар Рубль 100\n\
   Увидеть список доступных валют:\n                          /values".format(
                          message.from_user), reply_markup=markup)
 
